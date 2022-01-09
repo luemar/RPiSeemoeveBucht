@@ -6,13 +6,13 @@ from email.mime.text import MIMEText
 from email.header import Header
 from pushbullet import Pushbullet
 
-frm='marcus.luetolf@bluewin.ch'
-to='marcus.luetolf@bluewin.ch'
+frm='my e-mail address'
+to='my e-mail address'
 smtpHost='smtpauths.bluewin.ch'
 smtpPort=465
 
-smtpUser='marcus.luetolf'
-smtpPassword='gcbadRagaz119'
+smtpUser='my first.lastname'
+smtpPassword='my password'
 subj='von RPi SeemoeveBucht'
 msg='Foto von  SeemoeveBucht'
 fn='NoIRx.jpg'
