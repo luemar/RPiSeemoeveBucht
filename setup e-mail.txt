@@ -1,0 +1,6 @@
+pip3 install pushbullet.py
+
+#in
+/etc/ssl/openssl.cnf
+#letzte Zeile von 2 auf 1 setzten
+CipherString = DEFAULT@SECLEVEL=1
