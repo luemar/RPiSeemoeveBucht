@@ -4,18 +4,18 @@ from email.mime.text import MIMEText
 from email.header import Header
 from pushbullet import Pushbullet
 
-frm='marcus.luetolf@bluewin.ch'
-to='marcus.luetolf@bluewin.ch'
+frm='my e-mail address'
+to='my e-mail address'
 smtpHost='smtpauths.bluewin.ch'
 smtpPort=465
 
-smtpUser='marcus.luetolf'
-smtpPassword='gcbadRagaz119'
+smtpUser='my first.lastname'
+smtpPassword='my password'
 subj='von RPi SeemoevBucht'
 msg='RPi SeemoeveBucht eingeschaltet'
 
-api_key = 'o.A9yPjSAqbRnUk3QKEHOo71i4WDf7itmV'
-phone_number="41797438094"
+api_key = 'my api-key'
+phone_number="my phone number"
 pb=Pushbullet(api_key)
 
 mime=MIMEText(msg, 'plain', 'utf-8')
