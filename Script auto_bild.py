@@ -8,7 +8,7 @@ from pushbullet import Pushbullet
 
 frm='my e-mail address'
 to='my e-mail address'
-smtpHost='smtpauths.bluewin.ch'
+smtpHost='my server in address'
 smtpPort=465
 
 smtpUser='my first.lastname'
