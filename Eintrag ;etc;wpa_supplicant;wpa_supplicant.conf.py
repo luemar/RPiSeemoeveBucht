@@ -3,15 +3,15 @@ update_config=1
 country=CH
 
 network={
-        ssid="ytp-53161"
-        psk="plgo-ta11-35wa-wrxc"
+        ssid="my SSID"
+        psk="my password"
         key_mgmt=WPA-PSK
         id_str="mywlan0"
 }
 
 network={
-        ssid="oex-71387"
-        psk="nh9t-2rqz-ixir-0jgd"
+        ssid="my SSID"
+        psk="my password"
         key_mgmt=WPA-PSK
         id_str="mywlan1"
 }
